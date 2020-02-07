@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/colorAccent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagedog"
+        android:layout_width="wrap_content"
+        android:layout_height="285dp"
+        android:src="@drawable/dog2"
+        android:padding="30dp">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="42sp"
+        android:text="The Pup Store."
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/imagedog"
+        android:paddingLeft="45dp"
+        android:paddingTop="200dp"
+></TextView>
+
+    <TextView
+        android:id="@+id/text_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Our Store :)"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/imagedog"
+        android:paddingLeft="30dp"
+        android:textSize="30sp">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_Dog_woof"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Woof Woof ! Hey there , We are very cute puppies but we don't have homes for ourselves can you please take us with you?"
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_below="@+id/text_Welcome"
+    android:paddingLeft="30dp"
+        android:paddingRight="33dp"
+    android:paddingTop="10dp"
+    android:textSize="20sp"
+    ></TextView>
+
+    <TextView
+        android:id="@+id/text_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is an NGO for the puppies and for the dogs which dose'nt have a shelter and you guys can adopt them just for FREE!"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/text_Dog_woof"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="10dp"
+        android:textSize="17sp"
+        ></TextView>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_main"
+        android:src="@drawable/img"
+        android:paddingLeft="240dp"
+        ></ImageView>
+    <TextView
+        android:id="@+id/text_Formore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_main"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="For more :"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:textSize="20sp"
+        ></TextView>
+    <TextView
+        android:id="@+id/text_Contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Formore"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Contact : +91 9898989898"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:id="@+id/text_Email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Contact"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Email : dogsngo@gmail.com"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:textSize="15sp"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/text_Thankyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_Email"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="Thank You !"
+        android:paddingLeft="30dp"
+        android:paddingTop="10dp"
+        android:textSize="30sp"
+        ></TextView>
+
+
+</RelativeLayout>
